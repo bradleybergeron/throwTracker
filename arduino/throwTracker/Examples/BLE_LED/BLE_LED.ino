@@ -29,9 +29,9 @@ void setup() {
   while (!Serial);
 
   // set LED pin to output mode
-  pinMode(LEDR, OUTPUT);
-  pinMode(LEDG, OUTPUT);
-  pinMode(LEDB, OUTPUT);
+  pinMode(LED, OUTPUT);
+  pinMode(LED, OUTPUT);
+  pinMode(LED, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
 
   digitalWrite(LED_BUILTIN, LOW);         // when the central disconnects, turn off the LED
